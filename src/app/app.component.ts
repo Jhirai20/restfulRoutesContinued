@@ -24,7 +24,7 @@ export class AppComponent implements OnInit{
 
   ngOnInit(){
     //this function gets called after init constructor
-    this.getTasksFromService()
+    // this.getTasksFromService()
     
 
     //examples:
@@ -46,4 +46,21 @@ export class AppComponent implements OnInit{
     this.task = this.tasks[idx]
     this.green = true
   }
+  // do($event){
+  //   console.log($event)
+  // }
+  // onButtonClick(): void { 
+  //   console.log(`Click event is working`);
+  // }
+  // onButtonClickParam(num: Number): void { 
+  //     console.log(`Click event is working with num param: ${num}`);
+  //     let observable = this._httpService.postToServer({data:num})
+  //     observable.subscribe(data => console.log("Got out data!", data))
+  // }
+  // onButtonClickParams(num: Number, str: String): void { 
+  //     console.log(`Click event is working with num param: ${num} and str param: ${str}`);
+  // }
+  // onButtonClickEvent(event: any): void { 
+  //     console.log(`Click event is working with event: ${event}`);
+  // }
 };
